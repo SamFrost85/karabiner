@@ -1,0 +1,39 @@
+{
+    "title": "Home / End on External Keyboard",
+    "rules": [
+        {
+            "description": "Change Home to Command + Left Arrow",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "home"
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_arrow",
+                            "modifiers": ["right_command"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Change End to Command + Right Arrow",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "end"
+                    },
+                    "to": [
+                        {
+                            "key_code": "right_arrow",
+                            "modifiers": ["right_command"]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
